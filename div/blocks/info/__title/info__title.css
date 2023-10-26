@@ -1,0 +1,27 @@
+﻿.info__title {
+    font-family: "Inter", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    margin: 0;
+    width: 75%;
+    color: #fff;
+    background: #696969;
+}
+
+@media screen and (max-width: 1000px) {
+    .info__title {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .info__title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
