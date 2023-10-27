@@ -1,0 +1,26 @@
+﻿.item__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-family: "Inter", "Arial", sans-serif;
+    margin: 20px 0 20px;
+    color: #54595F;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    .item__title {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .item__title {
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 92px;
+    }
+}

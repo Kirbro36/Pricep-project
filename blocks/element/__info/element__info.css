@@ -1,0 +1,26 @@
+﻿.element__info {
+    text-align: center;
+    font-family: "Inter", "Arial", sans-serif;
+    color: #54595F;
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 36px;
+    margin: 14px 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    .element__info {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .element__info {
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 60px;
+    }
+}

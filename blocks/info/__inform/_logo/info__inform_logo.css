@@ -1,0 +1,9 @@
+﻿.info__inform__logo {
+    width: 32px;
+}
+
+@media screen and (max-width: 320px) {
+     .info__inform__logo {
+         width: 80px
+     }
+}
