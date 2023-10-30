@@ -1,0 +1,22 @@
+﻿.header__title {
+    color: #000;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    text-decoration: none;
+    font-family: "Inter", "Arial", sans-serif;
+}
+
+@media screen and (max-width: 920px) {
+    .header__title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .header__title {
+        font-weight: 500;
+        font-size: 58px;
+        line-height: 46px;
+    }
+}
