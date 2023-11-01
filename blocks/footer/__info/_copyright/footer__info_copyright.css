@@ -1,0 +1,22 @@
+﻿.footer__info_copyright {
+    font-family: "Inter", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 29px;
+    margin: 105px 0 0;
+}
+
+@media screen and (max-width:600px) {
+    .footer__info_copyright {
+        font-size: 27px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .footer__info_copyright {
+        font-size: 40px;
+        line-height: 53px;
+        margin: 5px 0 0;
+    }
+}

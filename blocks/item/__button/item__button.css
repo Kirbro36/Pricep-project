@@ -1,0 +1,18 @@
+﻿.item__button {
+    background: #483D8B;
+    margin-top: 30px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width:390px) {
+    .item__button {
+        font-size: 40px;
+        width: 255px;
+        height: 92px;
+    }
+}
