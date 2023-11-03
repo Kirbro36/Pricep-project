@@ -1,0 +1,19 @@
+﻿.phone__text {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    font-family: "Inter", "Arial", sans-serif;
+    color: #54595F;
+    margin: 10px auto;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+@media screen and (max-width: 390px) {
+    .phone__text {
+        font-size: 36px;
+        line-height: 50px;
+        width: 300px;
+    }
+}

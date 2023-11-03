@@ -1,0 +1,16 @@
+﻿.cards__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-family: "Inter", "Arial", sans-serif;
+    color: #54595F;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .cards__title {
+        font-size: 47px;
+        line-height: 42px;
+    }
+}

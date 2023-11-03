@@ -1,0 +1,23 @@
+﻿.types {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 100%;
+    gap: 180px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .types {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .types {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

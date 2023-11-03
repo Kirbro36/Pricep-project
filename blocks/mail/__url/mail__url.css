@@ -1,0 +1,15 @@
+﻿.mail__url {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    font-family: "Inter", "Arial", sans-serif;
+    margin: 0 0 0 15px;
+    color: #54595F;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 390px) {
+    .mail__url {
+        font-size: 36px;
+    }
+}

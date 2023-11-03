@@ -1,0 +1,9 @@
+﻿.adress-block__img {
+    width: 50px;
+}
+
+@media screen and (max-width: 390px) {
+    .adress-block__img {
+        width: 80px;
+    }
+}
