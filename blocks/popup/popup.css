@@ -1,0 +1,15 @@
+.popup {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 3%;
+    background-color: #68b192;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.3s linear;
+    justify-content: center;
+    align-items: center;
+}
