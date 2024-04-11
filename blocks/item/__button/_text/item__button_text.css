@@ -1,0 +1,10 @@
+﻿.item__button_text {
+    text-align: center;
+    margin: 10px auto;
+}
+
+@media screen and (max-width:390px) {
+    .item__button_text {
+        font-size: 40px;
+    }
+}

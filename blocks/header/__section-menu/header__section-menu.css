@@ -1,0 +1,10 @@
+﻿.header__section-menu {
+    display: flex;
+    align-self: center;
+}
+
+@media screen and (max-width: 760px) {
+    .header__section-menu {
+        display: none;
+    }
+}

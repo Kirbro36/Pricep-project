@@ -1,0 +1,12 @@
+﻿.data-rent {
+    display: flex;
+    gap: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .data-rent {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}

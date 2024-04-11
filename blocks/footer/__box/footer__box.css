@@ -1,0 +1,8 @@
+﻿.footer__box {
+    height: 100%;
+    content: "";
+    color: #fff;
+    background: #54595F;
+    opacity: 0.96;
+    position: relative;
+}
